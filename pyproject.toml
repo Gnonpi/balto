@@ -23,13 +23,17 @@ prompt_toolkit = "^2.0"
 urwid = "^2.0"
 dataclasses = {version = "^0.6.0",python = "~3.6"}
 tomlkit = "^0.5.5"
-fastapi = "^0.35.0"
+# I think application deps should be fixed
+fastapi = "=0.61.1"
 aiofiles = "^0.4.0"
 uvicorn = "^0.8.6"
 email-validator = "^1.0"
 
+pytest-litf = "^0.1.5"
+pytest = "^6.0.2"
+
 [tool.poetry.dev-dependencies]
-pytest = "^3.0"
+pytest = "^6.0.0"
 pyinstaller = "^3.4"
 
 [tool.poetry.scripts]
